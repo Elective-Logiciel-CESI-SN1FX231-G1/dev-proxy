@@ -1,0 +1,25 @@
+{
+  "name": "dev-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elective-Logiciel-CESI-SN1FX231-G1/dev-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elective-Logiciel-CESI-SN1FX231-G1/dev-proxy/issues"
+  },
+  "homepage": "https://github.com/Elective-Logiciel-CESI-SN1FX231-G1/dev-proxy#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
+  }
+}
