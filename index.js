@@ -9,6 +9,7 @@ app.use(createProxyMiddleware('/orders/api/',  { target: "http://localhost:44300
 app.use(createProxyMiddleware('/notify/api/',  { target: "http://localhost:44400", pathRewrite: { '^/notify':  '' } }))
 app.use(createProxyMiddleware('/stats/api/',   { target: "http://localhost:44500", pathRewrite: { '^/stats':   '' } }))
 app.use(createProxyMiddleware('/logs/api/',    { target: "http://localhost:44600", pathRewrite: { '^/logs':    '' } }))
+app.use(createProxyMiddleware('/perfs/api/',    { target: "http://localhost:44800", pathRewrite: { '^/perfs':    '' } }))
 app.use(createProxyMiddleware('/',    { target: "http://localhost:44700" }))
 
 app.listen(8080)
